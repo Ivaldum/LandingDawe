@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none ;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.banner-navbar {
+  background-image: url("img/banner.png");
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 130px; /* Ajusta la altura según tus necesidades */
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+  }
+  .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+.main-section {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.main-section h2{
+    color: #DF4948;
+    font-weight: 700;
+    font-size: 30px;
+}
+.section {
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.section p{
+    color: #039CA1;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.colored-section{
+  padding-bottom: 0px;
+}
+
+.colored-section span{
+    color: #DF4948;
+}
+
+.social-media-section {
+  margin: 25px;
+  text-align: center;
+}
+
+.social-media-section a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-media-section img {
+  width: 30px;
+}
+
+.footer-section p{
+  color: #039CA1;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
