@@ -111,7 +111,7 @@ body {
   }
 
   .social-media-section {
-    margin: 40px 0;
+    margin: 10% 0;
   }
 
   .footer-section p {
@@ -143,6 +143,10 @@ body {
 
   .social-media-section img {
     width: 40px;
+  }
+
+  .social-media-section {
+    margin: 10% 0;
   }
 
   .footer-section p {
