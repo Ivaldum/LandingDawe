@@ -11,12 +11,12 @@ body {
   background-position: center;
   position: relative;
   width: 100%;
-  height: 130px; /* Ajusta la altura según tus necesidades */
+  height: 180px;
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
   }
   .banner-content {
     position: absolute;
@@ -26,29 +26,34 @@ body {
   }
   
 .main-section {
-  padding-top: 50px;
-  padding-bottom: 30px;
+  margin-top: 60px;
   text-align: center;
 }
 
 .main-section h2{
     color: #DF4948;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
 }
 .section {
-  padding-bottom: 60px;
+  margin: 5% 0px;
   text-align: center;
 }
 
 .section p{
     color: #039CA1;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .colored-section{
   padding-bottom: 0px;
+}
+
+.container h4{
+  font-size: 25px;
+  font-weight: 500;
+  color: #039CA1
 }
 
 .colored-section span{
@@ -56,22 +61,88 @@ body {
 }
 
 .social-media-section {
-  margin: 25px;
+  margin: 5% 0;
   text-align: center;
 }
 
 .social-media-section a {
-  margin: 0 10px;
+  margin: 0 15px;
   text-decoration: none;
 }
 
 .social-media-section img {
-  width: 30px;
+  width: 45px;
 }
 
 .footer-section p{
   color: #039CA1;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
+}
+
+/* Modificaciones para responsive */
+
+@media (max-width: 767px) {
+  /* Estilos para dispositivos móviles */
+  .banner-navbar {
+    height: 120px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .main-section h2 {
+    font-size: 30px;
+  }
+
+  .section p {
+    font-size: 24px;
+  }
+
+  .container h4 {
+    font-size: 20px;
+  }
+
+  .social-media-section img {
+    width: 35px;
+  }
+
+  .footer-section p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Estilos para tablets */
+  .banner-navbar {
+    height: 150px;
+  }
+
+  .logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .main-section h2 {
+    font-size: 36px;
+  }
+
+  .section p {
+    font-size: 28px;
+  }
+
+  .container h4 {
+    font-size: 22px;
+  }
+
+  .social-media-section img {
+    width: 40px;
+  }
+
+  .footer-section p {
+    font-size: 19px;
+  }
 }
