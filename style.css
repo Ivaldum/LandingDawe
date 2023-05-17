@@ -94,12 +94,16 @@ body {
     height: 100px;
   }
 
+  .main-section {
+    margin-top: 50px;
+  }
+
   .main-section h2 {
-    font-size: 34px;
+    font-size: 30px;
   }
 
   .section p {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .container h4 {
