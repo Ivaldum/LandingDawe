@@ -95,7 +95,7 @@ body {
   }
 
   .main-section {
-    margin-top: 50px;
+    margin-top: 45px;
   }
 
   .main-section h2 {
@@ -110,8 +110,12 @@ body {
     font-size: 22px;
   }
 
+  .section {
+    margin: 3% 0px;
+  }
+
   .social-media-section {
-    margin: 4% 0;
+    margin: 3% 0;
   }
 
   .social-media-section img {
